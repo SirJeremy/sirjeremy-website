@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import './App.css'
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <div className='antialiased flex bg-slate-600 text-slate-100 w-screen h-screen'>
+        <h1 className='m-auto text-center text-3xl'>Hello World</h1>
+      </div>
     </>
   )
 }
