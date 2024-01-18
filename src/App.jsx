@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import { Route, Routes } from "react-router-dom";
+
+import HomePage from './pages/HomePage';
+import Error404Page from "./pages/Error404Page";
 
 function App() {
   return (
-    <>
-      <div className='antialiased flex bg-slate-600 text-slate-100 w-screen h-screen'>
-        <h1 className='m-auto text-center text-3xl'>Hello World</h1>
-      </div>
-    </>
+    <div className="App antialiased">
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='*' element={<Error404Page/>}/>
+      </Routes>
+    </div>
   )
 }
 
