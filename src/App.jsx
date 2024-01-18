@@ -5,7 +5,7 @@ import Error404Page from "./pages/Error404Page";
 
 function App() {
   return (
-    <div className="App antialiased">
+    <div className="App antialiased w-screen h-screen">
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='*' element={<Error404Page/>}/>

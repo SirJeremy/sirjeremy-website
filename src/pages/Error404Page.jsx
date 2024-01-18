@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 //#region Styles
-const basePageStyles = "flex bg-slate-600 text-slate-100 w-screen h-screen";
+const basePageStyles = "flex bg-slate-600 text-slate-100 w-full h-full grow";
 const centerDivStyles = "m-auto text-center";
 const headerStyles = "text-3xl pb-5";
 const textStyles = "text-xl mb-5";
