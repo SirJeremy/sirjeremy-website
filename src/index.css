@@ -7,6 +7,11 @@
 * {
   scrollbar-width: auto;
   scrollbar-color: #b8b9c3 #0000;
+  /* Saw video with this recommendation, made sense to add it 
+  since I have enountered weird bug in passed probably caused by
+  default min width on text. May cause other issues, but those
+  would be more obviously fixed by changing min width.*/
+  min-width: 0; 
 }
 
 /* Chrome, Edge, and Safari */
