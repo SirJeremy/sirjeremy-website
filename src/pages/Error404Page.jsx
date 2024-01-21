@@ -10,16 +10,14 @@ const linkStyles = "text-xl p-2 text-blue-200 border border-blue-200 rounded hov
 
 function Error404Page() {
   return (
-    <>
-        <div className={basePageStyles}>
-            <div className={centerDivStyles}>
-                <h1 className={headerStyles}>Page not found</h1>
-                <p className={textStyles}>Are you lost?</p>
-                <Link className={linkStyles} to='/'>Go Home</Link>
-            </div>
+    <div className={basePageStyles}>
+        <div className={centerDivStyles}>
+            <h1 className={headerStyles}>Page not found</h1>
+            <p className={textStyles}>Are you lost?</p>
+            <Link className={linkStyles} to='/'>Go Home</Link>
         </div>
-    </>
+    </div>
   )
 }
 
-export default Error404Page
+export default Error404Page;
