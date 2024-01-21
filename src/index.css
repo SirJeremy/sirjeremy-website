@@ -4,8 +4,35 @@
 
 
 @layer components {
+  /* Used by any element that needs to be inset to page borders */
   .page-inset {
     @apply max-w-screen-xl px-6;
+  }
+  
+  /* Gives slightly noisy appearance to background, tintable by background color */
+  .noisy {
+    background-image: url('assets/noise-256.png');
+    background-blend-mode: multiply;
+  }
+
+  /* Height stlying for navbar. Put here to prevent modification, since other stlyes are aware of this value */
+  .navbar-y {
+    @apply h-14 -mt-14;
+  }
+
+  /* Default formatting for page root */
+  .page-root {
+    @apply flex flex-row bg-neutral-800 text-slate-100 w-full min-h-full noisy;
+  }
+
+  /* Default formatting for page block, which takes up block in page, separate from main container */
+  .page-block {
+    @apply page-inset w-full mx-auto;
+  }
+
+  /* Default formatting for page container, which hosts the main content of the page */
+  .page-container {
+    @apply page-block pt-20 pb-8;
   }
 }
 

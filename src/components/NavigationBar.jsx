@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom"
 
 import githubLogo from 'assets/github-mark-white.svg';
 
-const rootStyles = "sticky top-0 bg-slate-800 text-slate-100 w-full";
-const containerStyles = "flex flex-row gap-10 py-4 mx-auto page-inset";
+const rootStyles = "sticky top-0 navbar-y w-full bg-slate-800/50 text-slate-100 backdrop-blur-sm";
+const containerStyles = "page-block flex flex-row gap-10 py-4 ";
 const linkStyles = "text-slate-100 hover:text-slate-400";
 const activeLinkStyles = "text-blue-300";
 const iconStyles = "inline w-4 h-4 m-1 align-top ";

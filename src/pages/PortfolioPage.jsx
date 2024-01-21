@@ -1,9 +1,17 @@
 import { useState } from 'react'
 
+
+const rootStyles = "page-root";
+const containerStyles = "page-container";
+
 function PortfolioPage() {
   return (
-    <div className='flex flex-col bg-slate-600 text-slate-100 w-full h-full'>
-        <h1 className='m-auto text-center text-3xl'>Portfolio</h1>
+    <div className={rootStyles}>
+        <div className={containerStyles}>
+          <p>TEST TEST TEST</p>
+          <p>TEST TEST TEST</p>
+          <p>TEST TEST TEST</p>
+        </div>
     </div>
   )
 }
