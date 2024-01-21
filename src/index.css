@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+  .page-inset {
+    @apply max-w-screen-xl px-6;
+  }
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
