@@ -8,8 +8,8 @@ function ProfilePage() {
   return (
     <div className='page-root'>
         <div className='page-container'>
-          <div className='prose prose-invert max-w-none'>
-            <Markdown>{profileContent}</Markdown>
+          <div className='prose prose-unamed max-w-none'>
+            <Markdown rehypePlugins={[remarkGfm]}>{profileContent}</Markdown>
           </div>
         </div>
     </div>

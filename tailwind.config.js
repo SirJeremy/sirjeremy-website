@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         accent: '#FFCAC2',
+        primary: '#EDE5CB',
         unamed: {
            50: '#F5F5F5',
           100: '#EDE5CB',
@@ -24,7 +25,29 @@ export default {
           900: '#312F2F',
           950: '#1F1E1E',
         },
-      }
+      },
+      typography: ({ theme }) => ({
+        unamed: {
+          css: {
+            '--tw-prose-body': theme('colors.unamed[50]'),
+            '--tw-prose-headings': theme('colors.primary'),
+            '--tw-prose-lead': theme('colors.accent'),
+            '--tw-prose-links': theme('colors.accent'),
+            '--tw-prose-bold': theme('colors.primary'),
+            '--tw-prose-counters': theme('colors.accent'),
+            '--tw-prose-bullets': theme('colors.accent'),
+            '--tw-prose-hr': theme('colors.primary'),
+            '--tw-prose-quotes': theme('colors.primary'),
+            '--tw-prose-quote-borders': theme('colors.accent'),
+            '--tw-prose-captions': theme('colors.accent'),
+            '--tw-prose-code': theme('colors.accent'),
+            '--tw-prose-pre-code': theme('colors.secondary'),
+            '--tw-prose-pre-bg': theme('colors.black'),
+            '--tw-prose-th-borders': theme('colors.primary'),
+            '--tw-prose-td-borders': theme('colors.primary'),
+          },
+        },
+      }),
     },
   },
   plugins: [
