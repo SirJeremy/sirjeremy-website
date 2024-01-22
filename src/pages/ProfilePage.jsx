@@ -1,9 +1,16 @@
 import { useState } from 'react'
+import Markdown from 'react-markdown';
+
+import profileContent from 'content/profile.md?raw'
 
 function ProfilePage() {
   return (
     <div className='page-root'>
-        <h1 className='page-container text-center m-auto'>Profile</h1>
+        <div className='page-container'>
+          <div className='prose prose-invert max-w-none'>
+            <Markdown>{profileContent}</Markdown>
+          </div>
+        </div>
     </div>
   )
 }
