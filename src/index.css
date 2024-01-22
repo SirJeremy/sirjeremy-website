@@ -6,7 +6,7 @@
 @layer components {
   /* Used by any element that needs to be inset to page borders */
   .page-inset {
-    @apply max-w-screen-xl px-6;
+    @apply max-w-screen-md px-6;
   }
   
   /* Gives slightly noisy appearance to background, tintable by background color */
