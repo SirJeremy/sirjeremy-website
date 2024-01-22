@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom"
 
 import githubLogo from 'assets/github-mark-white.svg';
 
-const rootStyles = "sticky top-0 navbar-y w-full bg-slate-800/50 text-slate-100 backdrop-blur-sm";
-const containerStyles = "page-block flex flex-row gap-10 py-4 ";
-const linkStyles = "text-slate-100 hover:text-slate-400";
-const activeLinkStyles = "text-blue-300";
+const rootStyles = "sticky top-0 navbar-y w-full backdrop-blur-sm text-unamed-150 bg-gradient-to-r from-unamed-500/60 to to-unamed-200/50";
+const containerStyles = "page-block flex flex-row gap-10 py-4";
+const linkStyles = "font-semibold hover:text-[#FBCFC4]";
+const activeLinkStyles = "font-semibold text-accent drop-shadow-[0_0px_4px_rgba(255,202,194,0.25)]";
 const iconStyles = "inline w-4 h-4 m-1 align-top ";
 
 function NavigationBar() {
