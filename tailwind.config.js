@@ -41,7 +41,7 @@ export default {
             '--tw-prose-quote-borders': theme('colors.accent'),
             '--tw-prose-captions': theme('colors.accent'),
             '--tw-prose-code': theme('colors.accent'),
-            '--tw-prose-pre-code': theme('colors.secondary'),
+            '--tw-prose-pre-code': theme('colors.unamed[50]'),
             '--tw-prose-pre-bg': theme('colors.black'),
             '--tw-prose-th-borders': theme('colors.primary'),
             '--tw-prose-td-borders': theme('colors.primary'),
