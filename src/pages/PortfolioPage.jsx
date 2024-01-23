@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import MarkdownContent from 'components/MarkdownContent';
+import MarkdownContent from 'src/components/MarkdownContent';
 
-import portfolioContent from 'content/portfolio.md?raw'
+import portfolioContent from 'src/content/portfolio.md?raw';
 
 const rootStyles = "page-root";
 const containerStyles = "page-container";

@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import MarkdownContent from 'components/MarkdownContent';
 
-import profileContent from 'content/profile.md?raw'
+import profileContent from 'src/content/profile.md?raw';
 
 function ProfilePage() {
   return (

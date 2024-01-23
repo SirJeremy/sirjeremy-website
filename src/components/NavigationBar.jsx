@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from "react-router-dom"
 
-import githubLogo from 'assets/github-mark-white.svg';
+import githubLogo from 'src/assets/github-mark-white.svg';
 
 const rootStyles = "sticky top-0 navbar-y w-full backdrop-blur-sm text-unamed-100 bg-gradient-to-r from-unamed-500/60 to to-unamed-200/50";
 const containerStyles = "page-block flex flex-row gap-10 py-4";

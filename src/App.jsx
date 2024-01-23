@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 
-import NavigationBar from "components/NavigationBar";
+import NavigationBar from "src/components/NavigationBar";
 
-import HomePage from 'pages/HomePage';
-import PortfolioPage from 'pages/PortfolioPage';
-import ProfilePage from "pages/ProfilePage";
-import Error404Page from "pages/Error404Page";
+import HomePage from "src/pages/HomePage";
+import PortfolioPage from 'src/pages/PortfolioPage';
+import ProfilePage from "src/pages/ProfilePage";
+import Error404Page from "src/pages/Error404Page";
 
 
 function App() {
