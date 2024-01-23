@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import MarkdownContent from 'src/components/MarkdownContent';
 
 import profileContent from 'src/content/profile.md?raw';
 
