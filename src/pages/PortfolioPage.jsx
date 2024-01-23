@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import MarkdownContent from 'components/MarkdownContent';
 
+import portfolioContent from 'content/portfolio.md?raw'
 
 const rootStyles = "page-root";
 const containerStyles = "page-container";
@@ -7,10 +9,10 @@ const containerStyles = "page-container";
 function PortfolioPage() {
   return (
     <div className={rootStyles}>
-        <div className={containerStyles}>
-          <p>TEST TEST TEST</p>
-          <p>TEST TEST TEST</p>
-          <p>TEST TEST TEST</p>
+        <div className='page-container'>
+          <MarkdownContent>
+            {portfolioContent}
+          </MarkdownContent>
         </div>
     </div>
   )
