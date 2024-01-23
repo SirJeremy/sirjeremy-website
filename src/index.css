@@ -22,7 +22,7 @@
 
   /* Default formatting for page root */
   .page-root {
-    @apply flex flex-row bg-unamed-900 text-unamed-50 w-full min-h-full noisy;
+    @apply flex flex-row w-full min-h-full min-w-[400px] bg-unamed-900 text-unamed-50 noisy;
   }
 
   /* Default formatting for page block, which takes up block in page, separate from main container */
