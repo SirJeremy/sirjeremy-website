@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 export default {
   content: [
     "./index.html",
@@ -50,6 +53,9 @@ export default {
           },
         },
       }),
+      fontFamily: {
+        'sans': ['"DM Sans"', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   plugins: [

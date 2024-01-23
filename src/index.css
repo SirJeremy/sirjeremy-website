@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* DM Sans is liscened under Open Font Liscense */
+@font-face {
+  font-family: "DM Sans";
+  src: url("src/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("src/assets/fonts/DM_Sans/DMSans-Italic-VariableFont_opsz,wght.ttf");
+  font-style: italic;
+}
 
 @layer components {
   /* Used by any element that needs to be inset to page borders */
@@ -32,7 +43,7 @@
 
   /* Default formatting for page container, which hosts the main content of the page */
   .page-container {
-    @apply page-block pt-20 pb-8;
+    @apply page-block pt-24 pb-8;
   }
 
   /* Formating for image contained within markdown content. This one floats left at half size. */
