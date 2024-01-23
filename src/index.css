@@ -37,12 +37,12 @@
 
   /* Formating for image contained within markdown content. This one floats left at half size. */
   .md-img-left {
-    @apply float-left w-1/2 mt-2 mr-6 mb-4;
+    @apply float-left w-1/2 mr-6 my-3;
   }
 
   /* Formating for image contained within markdown content. This one floats right at half size. */
   .md-img-right {
-    @apply float-right w-1/2 mt-2 ml-6 mb-4;
+    @apply float-right w-1/2 ml-6 my-3;
   }
 
   /* Formating for image contained within markdown content. This one is centered at half size. */
