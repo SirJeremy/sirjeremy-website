@@ -34,6 +34,26 @@
   .page-container {
     @apply page-block pt-20 pb-8;
   }
+
+  /* Formating for image contained within markdown content. This one floats left at half size. */
+  .md-img-left {
+    @apply float-left w-1/2 mt-2 mr-6 mb-4;
+  }
+
+  /* Formating for image contained within markdown content. This one floats right at half size. */
+  .md-img-right {
+    @apply float-right w-1/2 mt-2 ml-6 mb-4;
+  }
+
+  /* Formating for image contained within markdown content. This one is centered at half size. */
+  .md-img-center {
+    @apply w-1/2 my-5 mx-auto;
+  }
+  
+  /* Formating for image contained within markdown content. This one is centered at full image size for borders. */
+  .md-img-center-full {
+    @apply my-5 mx-auto;
+  }
 }
 
 /* ===== Scrollbar CSS ===== */
