@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import CodeBlock from 'src/components/CodeBlock';
 
 import profileContent from 'content/profile.md?raw'
@@ -11,7 +12,7 @@ function ProfilePage() {
         <div className='page-container'>
           <div className='prose prose-unamed max-w-none'>
             <Markdown 
-              rehypePlugins={[remarkGfm]}
+              rehypePlugins={[remarkGfm, rehypeRaw]}
               children={profileContent}
               components={{
                 code: ({node, ...props}) => <CodeBlock {...props}/>,
