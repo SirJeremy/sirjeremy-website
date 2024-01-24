@@ -1,7 +1,5 @@
 <h1 class='text-center'>Portfolio</h1>
 
-`asd`
-
 # AI Tutor 4 Me
 
 [link](https://www.aitutor4me.com/)
