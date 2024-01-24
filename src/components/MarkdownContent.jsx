@@ -1,3 +1,4 @@
+import { cloneElement } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
@@ -8,7 +9,8 @@ const tailwindClassMentionForCompiler = "md-img-left md-img-right md-img-center 
 const specialComponentResolution = (className, specialComponentMapping) => {
   const firstClass = className.split(" ")[0];
   if (specialComponentMapping !== null && firstClass in specialComponentMapping) {
-    return specialComponentMapping[firstClass]
+    const clone = cloneElement(specialComponentMapping[firstClass], {className: className});
+    return clone
   }
   return <></>;
 };

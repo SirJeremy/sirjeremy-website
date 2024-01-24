@@ -16,17 +16,18 @@ import endGame from "src/assets/ht/end-game.png";
 // See comment on useElementSize
 const widthToHeightRatio = 0.56181818;
 
-function HavokTanksCarousel() {
+function HavokTanksCarousel({className=''}) {
   const [imgRef, {width: imgWidth, height: imgHeight}] = useElementSize();
   const [height, setHeight] = useState(0);
 
+  console.log(className);
   useEffect(() => {
     //console.log(imgWidth, imgHeight)
     setHeight(imgWidth * widthToHeightRatio);
   }, [imgWidth]);
 
   return (
-    <div className='not-prose md-img-right' style={{height: `${height}px`}}>
+    <div className={className + ' not-prose'} style={{height: `${height}px`}}>
       <Carousel slideInterval={7500} pauseOnHover>
         <img src={mainMenu} alt="..." ref={imgRef}/>
         <img src={boostRamp} alt="..."/>

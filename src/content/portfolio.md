@@ -18,7 +18,7 @@ At the time of release, this 2nd program of it's kind and the only one kept a li
 
 # Havok Tanks
 
-<div class='ht-carousel other'></div>
+<div class='ht-carousel md-img-right'></div>
 
 Havok Tanks is a 2 player local multiplayer, MOBA inspired game. The players take control of a Wreker and duke it out on one of three maps. It features multiple AI Crew drones to help you destroy the enemy's base.
 
