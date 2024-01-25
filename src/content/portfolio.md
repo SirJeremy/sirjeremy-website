@@ -16,11 +16,11 @@ At the time of release, this 2nd program of it's kind and the only one kept a li
 
 ---
 
-# Havok Tanks
+# Havoc Tanks
 
 <div class='ht-carousel md-img-right'></div>
 
-Havok Tanks is a 2 player local multiplayer, MOBA inspired game. The players take control of a Wreker and duke it out on one of three maps. It features multiple AI Crew drones to help you destroy the enemy's base.
+Havoc Tanks is a 2 player local multiplayer, MOBA inspired game. The players take control of a Wreker and duke it out on one of three maps. It features multiple AI Crew drones to help you destroy the enemy's base.
 
 This game was developed by a team of student artists, designers, and programmers. The programmer team of around 7 programmers. In the programmer team of around 7 programmers, I was responsible for implements movement, controls, camera movement, particles, enviromental boost ramps, and many other small tasts.
 

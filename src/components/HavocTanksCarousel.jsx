@@ -17,7 +17,7 @@ import endGame from "src/assets/ht/end-game.png";
 // See comment on useElementSize
 const widthToHeightRatio = 0.56181818;
 
-function HavokTanksCarousel({className=''}) {
+function HavocTanksCarousel({className=''}) {
   const [imgRef, {width: imgWidth, height: imgHeight}] = useElementSize();
   const [height, setHeight] = useState(0);
 
@@ -27,7 +27,6 @@ function HavokTanksCarousel({className=''}) {
     setHeight(imgWidth * widthToHeightRatio);
   }, [imgWidth]);
 
-  // TODO: Add alt text
   return (
     <div className={className + ' not-prose'} style={{height: `${height}px`}}>
       <Carousel slideInterval={7500} pauseOnHover>
@@ -45,4 +44,4 @@ function HavokTanksCarousel({className=''}) {
   )
 }
 
-export default HavokTanksCarousel;
+export default HavocTanksCarousel;
