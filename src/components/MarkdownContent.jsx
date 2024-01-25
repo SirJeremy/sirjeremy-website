@@ -4,7 +4,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import CodeBlock from 'src/components/CodeBlock';
 
-const tailwindClassMentionForCompiler = "md-img-left md-img-right md-img-center md-img-center-full";
+const tailwindClassMentionForCompiler = "md-img-left md-img-right md-img-center md-img-center-1/2 md-img-center-3/4 md-img-right-xs-center md-img-left-xs-center";
 
 const specialComponentResolution = (className, specialComponentMapping) => {
   const firstClass = className.split(" ")[0];

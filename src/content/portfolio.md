@@ -1,5 +1,3 @@
-<h1 class='text-center'>Portfolio</h1>
-
 # AI Tutor 4 Me
 
 [link](https://www.aitutor4me.com/)
@@ -18,7 +16,7 @@ At the time of release, this 2nd program of it's kind and the only one kept a li
 
 # Havoc Tanks
 
-<div class='ht-carousel md-img-right'></div>
+<div class='ht-carousel md-img-right-xs-center'></div>
 
 Havoc Tanks is a 2 player local multiplayer, MOBA inspired game. The players take control of a Wreker and duke it out on one of three maps. It features multiple AI Crew drones to help you destroy the enemy's base.
 
