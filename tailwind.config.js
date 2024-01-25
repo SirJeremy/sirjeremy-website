@@ -57,6 +57,9 @@ export default {
       fontFamily: {
         'sans': ['"DM Sans"', ...defaultTheme.fontFamily.sans],
       },
+      screens: {
+        'xs': '520px',
+      },
     },
   },
   plugins: [
