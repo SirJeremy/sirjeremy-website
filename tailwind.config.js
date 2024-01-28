@@ -60,6 +60,16 @@ export default {
       screens: {
         'xs': '520px',
       },
+      keyframes: {
+        funnyJokeKeyFrames: {
+          '0%': { transform: 'translateY(0px) rotate(0turn)', animationTimingFunction: 'ease-in' },
+          '50%': { transform: 'translateY(0px) rotate(25turn)', animationTimingFunction: 'linear'  },
+          '100%': { transform: 'translateY(-300px) rotate(50turn)' },
+        },
+      },
+      animation: {
+        funnyJoke: 'funnyJokeKeyFrames 10s forwards',
+      },
     },
   },
   plugins: [

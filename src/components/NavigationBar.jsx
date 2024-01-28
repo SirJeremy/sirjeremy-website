@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from "react-router-dom"
+import FunnyJoke from 'src/components/FunnyJoke';
 
 import githubLogo from 'src/assets/github-mark-white.svg';
 
@@ -23,6 +24,9 @@ function NavigationBar() {
                 <img src={githubLogo} alt='GitHub Logo' className={iconStyles}/>
                 GitHub
             </a>
+            <FunnyJoke className={linkStyles}>
+              Funny Joke
+            </FunnyJoke>
         </div>
     </div>
   )
