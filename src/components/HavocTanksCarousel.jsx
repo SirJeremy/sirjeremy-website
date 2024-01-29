@@ -21,7 +21,6 @@ function HavocTanksCarousel({className=''}) {
   const [imgRef, {width: imgWidth, height: imgHeight}] = useElementSize();
   const [height, setHeight] = useState(0);
 
-  console.log(className);
   useEffect(() => {
     //console.log(imgWidth, imgHeight)
     setHeight(imgWidth * widthToHeightRatio);
