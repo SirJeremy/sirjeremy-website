@@ -18,6 +18,11 @@ Coding and software development was primarily my work. Which means that I had wo
 
 ### Website
 
+<video class="md-img-center" autoplay loop muted>
+    <source src="/pics/at4m/at4m-demo.webm" type="video/webm"/>
+    oops
+</video>
+
 The website was made using Vite, React, and Tailwind. It was designed to resemble ChatGPT at the request of the client, so that it would be more accessible to students. The majority of the work was managing state to be able to handle continuous updates from streamed responses and managing state for complex conversation structure to allow for regeneration of responses anywhere in a conversation.
 
 **Main Features:**
