@@ -10,7 +10,7 @@ import Error404Page from "src/pages/Error404Page";
 
 function App() {
   return (
-    <div className="antialiased relative min-w-screen min-h-screen">
+    <div className="antialiased relative w-screen h-screen">
       <NavigationBar/>
       <Routes>
         <Route path='/' element={<PortfolioPage/>}/>
