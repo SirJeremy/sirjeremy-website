@@ -28,7 +28,7 @@
 
   /* Height stlying for navbar. Put here to prevent modification, since other stlyes are aware of this value */
   .navbar-y {
-    @apply h-14 -mt-14;
+    @apply h-14;
   }
 
   /* Default formatting for page root */

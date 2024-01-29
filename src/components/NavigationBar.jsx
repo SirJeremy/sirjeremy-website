@@ -5,7 +5,7 @@ import FunnyJoke from 'src/components/FunnyJoke';
 
 import githubLogo from 'src/assets/github-mark-white.svg';
 
-const rootStyles = "sticky top-0 navbar-y w-full min-w-[400px] backdrop-blur-sm text-unamed-100 bg-gradient-to-r from-unamed-500/60 to to-unamed-200/50";
+const rootStyles = "fixed top-0 navbar-y w-full min-w-[400px] backdrop-blur-sm text-unamed-100 bg-gradient-to-r from-unamed-500/60 to to-unamed-200/50";
 const containerStyles = "page-block flex flex-row gap-10 py-4";
 const socialContainerStyles = "flex flex-row gap-2";
 const linkStyles = "whitespace-nowrap font-semibold hover:text-accentl";
