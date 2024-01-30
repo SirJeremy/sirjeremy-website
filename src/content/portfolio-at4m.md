@@ -1,6 +1,6 @@
 # AI Tutor 4 Me
 
-<img src="/pics/at4m/at4m-main.png" alt="Screenshot of a website. There is a chat on the right and a list of conversations on the left." class="md-img-center"/>
+<img src="/pics/at4m.png" alt="Screenshot of a website. There is a chat on the right and a list of conversations on the left." class="md-img-center"/>
 
 While working at the [xREAL Lab](https://www.csusb.edu/xreal-lab) at Cal State San Bernardino, I worked on projects related Large Language Model (LLMs) AI. Most of my time was spent working on a project available at the website [aitutor4me.com](https://www.aitutor4me.com). It consists of a frontend website and an API which hosts the business logic and interacts with a database.
 
@@ -19,7 +19,7 @@ Coding and software development was primarily my work. Which means that I had wo
 ### Website
 
 <video class="md-img-center" autoplay loop muted>
-    <source src="/pics/at4m/at4m-demo.webm" type="video/webm"/>
+    <source src="/pics/at4m-demo.webm" type="video/webm"/>
     oops
 </video>
 
