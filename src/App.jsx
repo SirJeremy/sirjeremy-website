@@ -5,6 +5,7 @@ import NavigationBar from "src/components/NavigationBar";
 import HomePage from "src/pages/HomePage";
 import PortfolioPage from 'src/pages/PortfolioPage';
 import ProfilePage from "src/pages/ProfilePage";
+import ContactPage from "src/pages/ContactPage";
 import Error404Page from "src/pages/Error404Page";
 
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<PortfolioPage/>}/>
         <Route path='/profile' element={<ProfilePage/>}/>
+        <Route path='/contact' element={<ContactPage/>}/>
         <Route path='*' element={<Error404Page/>}/>
       </Routes>
     </div>

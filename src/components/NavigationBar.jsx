@@ -22,6 +22,9 @@ function NavigationBar() {
             <NavLink to='/profile' className={({ isActive }) => isActive ? activeLinkStyles : linkStyles}>
               About Me
             </NavLink>
+            <NavLink to='/contact' className={({ isActive }) => isActive ? activeLinkStyles : linkStyles}>
+              Contact
+            </NavLink>
             <a href='https://github.com/SirJeremy' target='_blank' rel='noopener noreferrer' className={linkStyles}>
                 <SocialGithub className={iconStyles}/>
                 GitHub
