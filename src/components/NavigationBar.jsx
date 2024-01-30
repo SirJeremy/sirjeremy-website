@@ -4,11 +4,11 @@ import { SocialGithub, SocialX, SocialLinkedin, SocialFacebook } from 'src/compo
 import FunnyJoke from 'src/components/FunnyJoke';
 
 const rootStyles = "fixed top-0 navbar-y w-full min-w-[400px] backdrop-blur-sm text-unamed-100 bg-gradient-to-r from-unamed-500/60 to to-unamed-200/50";
-const containerStyles = "page-block flex flex-row gap-10 py-4";
-const socialContainerStyles = "flex flex-row gap-2 ml-auto px-1";
-const linkStyles = "whitespace-nowrap font-semibold hover:text-accentl";
-const activeLinkStyles = "whitespace-nowrap font-semibold text-accent drop-shadow-[0_0px_4px_rgba(255,202,194,0.25)]";
-const iconStyles = "inline align-text-top w-6 -my-0.5";
+const containerStyles = "page-block flex flex-row gap-3 py-4";
+const socialContainerStyles = "flex flex-row gap-2 ml-auto pl-1 min-w-fit";
+const linkStyles = "mr-auto min-w-fit whitespace-nowrap font-semibold hover:text-accentl";
+const activeLinkStyles = linkStyles + " text-accent drop-shadow-[0_0px_4px_rgba(255,202,194,0.25)]";
+const iconStyles = "inline align-text-top h-6 -my-0.5";
 
 function NavigationBar() {
   return (
