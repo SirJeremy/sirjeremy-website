@@ -8,7 +8,7 @@ function ContactPage() {
             Contact Infomation
         </h1>
         <p className='text-lg my-8'>
-            Contact me using the following infomation:
+            Contact me using the following&nbsp;infomation:
         </p>
         <p className='text-2xl my-1'>
             Jeremy Cortez
