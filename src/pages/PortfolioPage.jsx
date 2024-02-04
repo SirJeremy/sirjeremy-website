@@ -13,7 +13,7 @@ function PortfolioPage() {
   return (
     <div className='page-root'>
         <div className='page-container'>
-          <MarkdownContent specialComponentMapping={{'ht-carousel': <HavocTanksCarousel/>}}>
+          <MarkdownContent componentMapping={{'ht-carousel': <HavocTanksCarousel/>}}>
             {combinedContent}
           </MarkdownContent>
         </div>

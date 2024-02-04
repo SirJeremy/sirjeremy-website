@@ -6,17 +6,17 @@ import CodeBlock from 'src/components/CodeBlock';
 
 const tailwindClassMentionForCompiler = "md-img-left md-img-right md-img-center md-img-center-1/2 md-img-center-3/4 md-img-right-xs-center md-img-left-xs-center";
 
-const specialComponentResolution = (className, specialComponentMapping) => {
+const componentMapper = (className, componentMapping) => {
   const firstClass = className.split(" ")[0];
-  if (specialComponentMapping !== null && firstClass in specialComponentMapping) {
-    const clone = cloneElement(specialComponentMapping[firstClass], {className: className});
+  if (componentMapping !== null && firstClass in componentMapping) {
+    const clone = cloneElement(componentMapping[firstClass], {className: className});
     return clone
   }
   return <></>;
 };
 
-// specialComponentMapping = { 'first-class-name-on-div': <MyComponent/> }
-function MarkdownContent({children, specialComponentMapping=null}) {
+// componentMapping = { 'first-class-name-on-div': <MyComponent/> }
+function MarkdownContent({children, componentMapping=null}) {
   return (
     <div className='prose prose-unamed max-w-none'>
       <Markdown 
@@ -25,7 +25,7 @@ function MarkdownContent({children, specialComponentMapping=null}) {
         components={{
           code: ({node, ...props}) => <CodeBlock {...props}/>,
           pre: ({ children, ...props }) => children,
-          div: ({ node, className, ...props}) => specialComponentResolution(className, specialComponentMapping),
+          div: ({ node, className, ...props}) => componentMapper(className, componentMapping),
         }}
         />
     </div>
