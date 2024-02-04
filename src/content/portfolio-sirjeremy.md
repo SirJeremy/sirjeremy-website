@@ -1,4 +1,6 @@
-# This website I guess
+# This Website
+
+<img src="/pics/sirjeremy-website.png" alt="Screenshot of this website. In the screenshot, you can see this very same picture." class="md-img-center-3/4"/>
 
 While this website not that technically impressive, it is something you can see outside a command line and took longer than 2 hours (which are the main hurdles for portfolio projects). So, I am counting it.
 
