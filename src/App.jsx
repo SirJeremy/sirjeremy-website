@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
+import ScrollToTop from "./components/ScrollToTop";
+
 import NavigationBar from "src/components/NavigationBar";
 
 import HomePage from "src/pages/HomePage";
@@ -13,6 +15,7 @@ function App() {
   return (
     <div className="antialiased relative w-screen h-screen">
       <NavigationBar/>
+      <ScrollToTop/>
       <Routes>
         <Route path='/' element={<PortfolioPage/>}/>
         <Route path='/profile' element={<ProfilePage/>}/>
