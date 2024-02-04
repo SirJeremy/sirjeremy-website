@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 import { SocialGithub, SocialX, SocialLinkedin, SocialFacebook } from 'src/components/SocialIcons';
 import FunnyJoke from 'src/components/FunnyJoke';
 
-const rootStyles = "fixed top-0 navbar-y w-full min-w-[400px] backdrop-blur-sm text-unamed-100 bg-gradient-to-r from-unamed-500/60 to to-unamed-200/50";
+const rootStyles = "fixed top-0 navbar-y w-full min-w-[400px] z-30 backdrop-blur-sm text-unamed-100 bg-gradient-to-r from-unamed-500/60 to to-unamed-200/50";
 const containerStyles = "page-block flex flex-row gap-3 py-4";
 const socialContainerStyles = "flex flex-row-reverse gap-2 ml-auto flex flex-wrap overflow-hidden h-6";
 const linkStyles = "mr-auto min-w-fit whitespace-nowrap font-semibold hover:text-accentl";
