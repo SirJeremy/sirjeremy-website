@@ -43,7 +43,7 @@
 
   /* Default formatting for page container, which hosts the main content of the page */
   .page-container {
-    @apply page-block pt-24 pb-8;
+    @apply page-block pt-24 pb-32;
   }
 
   /* Formating for image contained within markdown content. This one floats left at half size. */
