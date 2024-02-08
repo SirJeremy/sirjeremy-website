@@ -39,6 +39,8 @@ const componentMapper = (className, componentMapping) => {
       componentMapping[firstClass], {className: className});
     return clone
   }
+  return <></>;
+};
 
 function MarkdownContent({children, componentMapping=null}) {
   return (
